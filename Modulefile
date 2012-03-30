@@ -1,11 +1,8 @@
-name    'puppet-autofs'
-version '0.0.1'
-source 'UNKNOWN'
-author 'puppet'
-license 'UNKNOWN'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+name 'nanliu-autofs'
+version '0.1.0'
+author 'nanliu'
+license 'apache2'
+description 'autofs managment'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'ripienaar/concat', '>= 20100507'
