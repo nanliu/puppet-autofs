@@ -1,6 +1,6 @@
-#  $fs_domain = $::domain,
-#  $path      = "/export/${name}"
 define autofs::mount(
+  $fs_domain = $::domain,
+  $path      = "/export/${name}"
 ){
 
   file{ "/etc/auto.${name}":
