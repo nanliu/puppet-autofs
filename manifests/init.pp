@@ -11,8 +11,9 @@
 # Sample Usage:
 #
 # [Remember: No empty lines between comments and class definition]
-class autofs(
-){
+class autofs(){
+  include concat::setup
+
   package { 'autofs':
     ensure => installed,
   }
